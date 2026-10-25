@@ -1,0 +1,31 @@
+{
+  "best_model": "Logistic Regression (balanced)",
+  "metrics": {
+    "accuracy": 0.7338,
+    "precision": 0.6032,
+    "recall": 0.7037,
+    "f1": 0.6496,
+    "roc_auc": 0.8126,
+    "cv_f1_mean": 0.6648
+  },
+  "features": [
+    "Pregnancies",
+    "Glucose",
+    "BloodPressure",
+    "SkinThickness",
+    "Insulin",
+    "BMI",
+    "DiabetesPedigreeFunction",
+    "Age"
+  ],
+  "feature_importance_or_coefficients": {
+    "Pregnancies": 0.373,
+    "Glucose": 1.1834,
+    "BloodPressure": -0.0145,
+    "SkinThickness": 0.0139,
+    "Insulin": -0.0447,
+    "BMI": 0.7097,
+    "DiabetesPedigreeFunction": 0.2877,
+    "Age": 0.1864
+  }
+}
